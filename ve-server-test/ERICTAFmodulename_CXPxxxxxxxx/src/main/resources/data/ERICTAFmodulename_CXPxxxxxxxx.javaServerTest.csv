@@ -1,0 +1,3 @@
+host,port,timeout,topic,model,uuid
+localhost,8585,30000,EiffelJobFinishedEvent,RatioDistributionModel,test
+

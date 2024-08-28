@@ -1,0 +1,437 @@
+[
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "62a9022c-c539-43de-96e3-0767e4a49d8c",
+                    "expectedDurationInSeconds": 0,
+                    "expectedNumberOfChildren": 0,
+                    "jobExecutionId": "Functional_Tests",
+                    "jobExecutionNumber": 0,
+                    "optionalParameters": {}
+                },
+                "eventId": "eb0355e8-831c-4310-80fb-7c4bc04c9683",
+                "eventTime": "2013-11-06T17:05:00.818Z",
+                "eventType": "EiffelJobStepStartedEvent",
+                "inputEventIds": []
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "jobExecutionId": "Functional_Tests",
+                    "name": "DURA Visualization Suite",
+                    "optionalParameters": {},
+                    "parentId": "62a9022c-c539-43de-96e3-0767e4a49d8c",
+                    "type": "Functional"
+                },
+                "eventId": "3a7ef918-5346-4f41-b51e-0ce8c0e47375",
+                "eventTime": "2013-11-06T17:05:05.186Z",
+                "eventType": "EiffelTestSuiteStartedEvent",
+                "inputEventIds": ["62a9022c-c539-43de-96e3-0767e4a49d8c"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e378",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3730",
+                    "testName": "publish test case results on the message bus"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3730"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e378",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e777",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3730",
+                    "testName": "read test case results from message bus"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3730"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e777",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e666",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3730",
+                    "testName": "check connection to message bus"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3730"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e666",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e111",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3732",
+                    "testName": "SOV status for a Visualization Pilot"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3732"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e111",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e222",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3728",
+                    "testName": "Tree Chart created for visualization Pilot"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd6222",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3728"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e378",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e333",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3731",
+                    "testName": "display test case results for visualization pilot"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3731"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e333",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e555",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3788",
+                    "testName": "backend solution is up and running"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3788"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e555",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e444",
+                    "jobExecutionId": "Functional_Tests",
+                    "optionalParameters": {
+                        "suiteName": "DURA Visualization Suite"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "CIP-3788",
+                    "testName": "scalable backend solution for visualization pilot"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DURA Visualization Suite",
+                        "testCaseId": "CIP-3788"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e444",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "c371d76e-d4f3-4dd2-a32d-c519e9c3ab56",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {},
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "ea569bbc-3ea3-4634-9454-c6f3e75bd217",
+                "eventTime": "2013-11-06T17:05:16.690Z",
+                "eventType": "EiffelTestSuiteFinishedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "c337a52d-85e3-4c79-85a1-33b8ae9b0dd7",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {},
+                    "parentId": "62a9022c-c539-43de-96e3-0767e4a49d8c"
+                },
+                "eventId": "48285a6b-06bb-4959-bea3-062bbcdb67d4",
+                "eventTime": "2013-11-06T17:05:16.970Z",
+                "eventType": "EiffelJobStepFinishedEvent",
+                "inputEventIds": ["62a9022c-c539-43de-96e3-0767e4a49d8c"]
+            }
+        }
+    }
+]

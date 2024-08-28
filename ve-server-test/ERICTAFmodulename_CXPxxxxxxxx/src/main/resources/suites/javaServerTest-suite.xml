@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JavaServerTest">
+	<parameter name="taf.vusers" value="1"/>
+    <test name="JavaServerTest">
+        <classes>
+            <class name="com.ericsson.testing.test.cases.JavaServerTest"/>
+        </classes>
+    </test>
+
+</suite>

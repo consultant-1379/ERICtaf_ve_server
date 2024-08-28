@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<script type="text/javascript" src="javascript/socket.io.js"></script>
+<script type="text/javascript" src="javascript/jquery-1.7.js"></script>
+<script type="text/javascript" src="javascript/application.js"></script>
+<script type="text/javascript" src="javascript/jquery.stringifyjson.js"></script>
+<script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Atmosphere Socket.io Chat</title>
+
+    <style>
+        * {
+            font-family: tahoma;
+            font-size: 12px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        p {
+            line-height: 18px;
+        }
+
+        div {
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #detect {
+            padding: 5px;
+            background: #ffc0cb;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            margin-top: 10px;
+        }
+
+        #content {
+            padding: 5px;
+            background: #ddd;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            margin-top: 10px;
+        }
+
+        #eventContent {
+            padding: 5px;
+            height: 500px;
+            overflow: hidden;
+            background: #ddd;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            margin-top: 10px;
+        }
+
+        #ratioContent {
+            padding: 5px;
+            height: 500px;
+            overflow: hidden;
+            background: #ddd;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            margin-top: 10px;
+        }
+        
+        #directedAcyclicContent {
+            padding: 5px;
+            height: 500px;
+            overflow: hidden;
+            background: #ddd;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            margin-top: 10px;
+            overflow: scroll;
+        }
+
+        #header {
+            padding: 5px;
+            background: #f5deb3;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            margin-top: 10px;
+        }
+
+        #input {
+            border-radius: 2px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            padding: 5px;
+            width: 400px;
+        }
+
+        #status {
+            width: 88px;
+            display: block;
+            float: left;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+<div id="header"><h3>VE subscription test. Default transport is WebSocket, fallback is long-polling</h3></div>
+<div id="detect"><h3>Detecting what the browser and server are supporting</h3></div>
+<div id="content"></div>
+<table width="100%"><tr><td width="33%" align="center" valign="top">
+<div>
+    <div id="eventContent" align="left"></div>
+    <span align="center">
+        <button type="button" id="eventSubscribeButton" disabled="disabled">Subscribe events</button>
+        <button type="button" id="eventUnsubscribeButton" disabled="disabled">Unsubscribe events</button>
+        <button type="button" id="historicalButton" disabled="disabled">HistoricalData</button>
+    </span>
+</div>
+</td><td width="33%" align="center" valign="top">
+<div>
+    <div id="ratioContent" align="left"></div>
+    <span align="center">
+        <button type="button" id="ratioSubscribeButton" disabled="disabled">Subscribe ratio</button>
+        <button type="button" id="ratioUnsubscribeButton" disabled="disabled">Unsubscribe ratio</button>
+    </span>
+</div>
+</td><td width="33%" align="center" valign="top">
+<div>
+    <div id="directedAcyclicContent" align="left"></div>
+    <span align="center">
+        <button type="button" id="directedAcyclicSubscribeButton" disabled="disabled">Subscribe directedAcyclic</button>
+        <button type="button" id="directedAcyclicUnsubscribeButton" disabled="disabled">Unsubscribe directedAcyclic</button>
+    </span>
+</div>
+</td></tr>
+</table>
+</body>
+</html>

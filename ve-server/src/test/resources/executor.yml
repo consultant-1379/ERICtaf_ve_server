@@ -1,0 +1,19 @@
+executor:
+  akka:
+    name: actor-system
+  netty:
+    hostname: localhost
+    port: 8585
+    webdir: ../../duraci-ve/root
+  amqp:
+    host: atclvm793.athtem.eei.ericsson.se
+    port: 5672
+    exchangeName: TAF_Performance_events
+    username: guest
+    password: guest
+    routingKey: "#"
+    componentName: "VE-Server"
+  eventRepository:
+    uri: http://atclvm356.athtem.eei.ericsson.se:8080/eventrepository/restapi
+#  mongodb:
+#    hostname: localhost:27017

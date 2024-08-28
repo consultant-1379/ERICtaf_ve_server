@@ -1,0 +1,36 @@
+# Default configurations
+common: &default_settings
+  akka:
+    name: actor-system
+  netty:
+    hostname: localhost
+    port: 8585
+    webdir: ./web
+  amqp:
+    host: localhost
+    port: 5672
+    exchangeName: eiffel.poc
+    username: guest
+    password: guest
+    routingKey: "#"
+    componentName: "VE-Server"
+  eventRepository:
+    uri: http://localhost:8090/eventrepository/restapi
+
+
+# Development
+development:
+  <<: *default_settings
+  netty:
+    hostname: localhost
+    port: 8585
+    webdir: src/test/resources/webtest
+  mongodb:
+    hostname: localhost
+  trace:
+    level: FINE
+
+
+# Production
+production:
+  <<: *default_settings

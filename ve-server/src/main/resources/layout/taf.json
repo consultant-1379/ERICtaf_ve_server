@@ -1,0 +1,25 @@
+{
+    "regions": [
+        {
+            "type": "treeRegion",
+            "span": 5,
+            "subscriptions": [
+                "domainId:test.execution"
+            ]
+        },
+        {
+            "type": "treeMapRegion",
+            "span": 6,
+            "publish": {
+                "jiraSubscriber": {
+                    "jiraSubscriptionEvent": {
+                        "epicId": "CIP-3732"
+                    }
+                }
+            },
+            "subscriptions": [
+                "domainId:test.execution"
+            ]
+        }
+    ]
+}

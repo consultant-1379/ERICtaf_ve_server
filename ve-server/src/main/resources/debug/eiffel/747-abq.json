@@ -1,0 +1,1429 @@
+[
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "62a9022c-c539-43de-96e3-0767e4a49d8c",
+                    "expectedDurationInSeconds": 0,
+                    "expectedNumberOfChildren": 0,
+                    "jobExecutionId": "747-ABQ",
+                    "jobExecutionNumber": 0,
+                    "optionalParameters": {}
+                },
+                "eventId": "eb0355e8-831c-4310-80fb-7c4bc04c9683",
+                "eventTime": "2013-11-06T17:05:00.818Z",
+                "eventType": "EiffelJobStepStartedEvent",
+                "inputEventIds": []
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "jobExecutionId": "747-ABQ",
+                    "name": "DummyTestCase",
+                    "optionalParameters": {},
+                    "parentId": "62a9022c-c539-43de-96e3-0767e4a49d8c",
+                    "type": "Functional"
+                },
+                "eventId": "3a7ef918-5346-4f41-b51e-0ce8c0e47375",
+                "eventTime": "2013-11-06T17:05:05.186Z",
+                "eventType": "EiffelTestSuiteStartedEvent",
+                "inputEventIds": ["62a9022c-c539-43de-96e3-0767e4a49d8c"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "dc633e5b-ca0e-4346-883e-46866571e378",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY",
+                    "testName": "Dummy Test Case in context [null]"
+                },
+                "eventId": "ec7527ac-1c13-4a01-ba65-75a5274e0cb0",
+                "eventTime": "2013-11-06T17:05:05.236Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "965ac436-9314-405f-a849-76de05bd63e8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY"
+                    },
+                    "parentId": "dc633e5b-ca0e-4346-883e-46866571e378",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "17c8a355-2654-45bc-870a-3e3b1120356c",
+                "eventTime": "2013-11-06T17:05:05.718Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["dc633e5b-ca0e-4346-883e-46866571e378"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "5389b295-5eee-4911-b31e-60cc6e7b1846",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY",
+                    "testName": "Dummy Test Case in context [API]"
+                },
+                "eventId": "4c859309-8cac-4291-af36-a517ff896778",
+                "eventTime": "2013-11-06T17:05:05.722Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "ee4af681-7630-45f0-b1d3-5c38a3bf4f1f",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY"
+                    },
+                    "parentId": "5389b295-5eee-4911-b31e-60cc6e7b1846",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "0fde6ba2-6f3f-4df3-861d-35c78792c37a",
+                "eventTime": "2013-11-06T17:05:06.005Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["5389b295-5eee-4911-b31e-60cc6e7b1846"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "c0248134-9b5a-4dc2-867f-6e7e382504d7",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY",
+                    "testName": "Dummy Test Case in context [API]"
+                },
+                "eventId": "2964e6b8-6a7e-4fa6-9ea2-0c7a457b8221",
+                "eventTime": "2013-11-06T17:05:06.011Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "936e35a8-5ada-4e87-b988-32967b2aecec",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY"
+                    },
+                    "parentId": "c0248134-9b5a-4dc2-867f-6e7e382504d7",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "50b548d2-43eb-41c1-b6fe-2f5938996987",
+                "eventTime": "2013-11-06T17:05:06.299Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["c0248134-9b5a-4dc2-867f-6e7e382504d7"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "0c0fe36c-a2d0-410b-9f95-897a2d6c8674",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY",
+                    "testName": "Dummy Test Case in context [API]"
+                },
+                "eventId": "346a8c33-cb66-4b8e-a3db-a9b39f71fc3d",
+                "eventTime": "2013-11-06T17:05:06.303Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "cd4699a8-666f-4433-a345-8788c67f73c3",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY"
+                    },
+                    "parentId": "0c0fe36c-a2d0-410b-9f95-897a2d6c8674",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "fc34585a-c7df-4d01-92e7-a89923dbe6e7",
+                "eventTime": "2013-11-06T17:05:06.569Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["0c0fe36c-a2d0-410b-9f95-897a2d6c8674"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "67672b31-8b35-4658-aa09-ac13ec4c7204",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY",
+                    "testName": "Dummy Test Case in context [API]"
+                },
+                "eventId": "c72dae0c-e4ac-49c5-9655-3e80b490a409",
+                "eventTime": "2013-11-06T17:05:06.573Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "f322c428-f10a-4008-b715-0a2f3627869e",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY"
+                    },
+                    "parentId": "67672b31-8b35-4658-aa09-ac13ec4c7204",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "9bc2e3e3-2ac6-4bcd-a49b-cc432e84669a",
+                "eventTime": "2013-11-06T17:05:06.876Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["67672b31-8b35-4658-aa09-ac13ec4c7204"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "91d139cf-b44d-4812-9d77-6103f8a903fa",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY",
+                    "testName": "Dummy Test Case in context [API]"
+                },
+                "eventId": "9608c61c-8342-46fa-81db-8c9b63224f48",
+                "eventTime": "2013-11-06T17:05:06.879Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "f60201ff-a757-402b-8163-44546a2a8b2e",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY"
+                    },
+                    "parentId": "91d139cf-b44d-4812-9d77-6103f8a903fa",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "3fc8f78b-afe7-43ae-9450-0aa0acf1c97a",
+                "eventTime": "2013-11-06T17:05:07.305Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["91d139cf-b44d-4812-9d77-6103f8a903fa"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "22122387-3bff-4635-a2c7-6ce30ad6c72c",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 2",
+                    "testName": "Dummy Test Case 2 in context [API]"
+                },
+                "eventId": "965c34cc-6a81-48ad-9035-b61e4328f7d5",
+                "eventTime": "2013-11-06T17:05:07.310Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "6c05d21a-385b-4a26-9728-a352a9514729",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 2"
+                    },
+                    "parentId": "22122387-3bff-4635-a2c7-6ce30ad6c72c",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "305f4863-283b-48b0-8e0d-a0a6fa08f4d8",
+                "eventTime": "2013-11-06T17:05:07.603Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["22122387-3bff-4635-a2c7-6ce30ad6c72c"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "9b5a4d2c-1d6f-4250-a179-d75d1dc63235",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 2",
+                    "testName": "Dummy Test Case 2 in context [API]"
+                },
+                "eventId": "2034c1ae-a1f1-4ad4-9278-66ce7f142658",
+                "eventTime": "2013-11-06T17:05:07.610Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "466aa84f-3c61-477f-863b-4796286f83fd",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 2"
+                    },
+                    "parentId": "9b5a4d2c-1d6f-4250-a179-d75d1dc63235",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "0521b130-aea7-4569-9939-c42c949366d1",
+                "eventTime": "2013-11-06T17:05:07.914Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["9b5a4d2c-1d6f-4250-a179-d75d1dc63235"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "914c0bf9-5246-4016-88eb-ed55cf27b7bd",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 2",
+                    "testName": "Dummy Test Case 2 in context [REST]"
+                },
+                "eventId": "006516c6-3da4-4b0f-95b8-faf588836a8c",
+                "eventTime": "2013-11-06T17:05:07.921Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "7b87838c-788c-4e40-8c4e-a18812fc77c8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 2"
+                    },
+                    "parentId": "914c0bf9-5246-4016-88eb-ed55cf27b7bd",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "adf283ea-2ea9-4742-9148-38f94103a42c",
+                "eventTime": "2013-11-06T17:05:08.405Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["914c0bf9-5246-4016-88eb-ed55cf27b7bd"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "7d1621e1-f1a5-416d-ac29-6fdb11556f5d",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 2",
+                    "testName": "Dummy Test Case 2 in context [UI]"
+                },
+                "eventId": "cd702d8c-48cf-4f6c-8240-abeeb911a4cd",
+                "eventTime": "2013-11-06T17:05:08.410Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "aa0917bd-11be-4f39-9a96-b2aa3d5137a5",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 2"
+                    },
+                    "parentId": "7d1621e1-f1a5-416d-ac29-6fdb11556f5d",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "aecee25d-2db0-41ce-aa5b-37e19568de85",
+                "eventTime": "2013-11-06T17:05:08.705Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["7d1621e1-f1a5-416d-ac29-6fdb11556f5d"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "82fc0fba-39d5-418b-8c4d-d7a7f9587f8a",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 2",
+                    "testName": "Dummy Test Case 2 in context [API]"
+                },
+                "eventId": "092ee38e-03f7-48d0-8af0-ebb880f6177a",
+                "eventTime": "2013-11-06T17:05:08.710Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "44292aa9-f9b7-484e-a978-4b7890da3134",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 2"
+                    },
+                    "parentId": "82fc0fba-39d5-418b-8c4d-d7a7f9587f8a",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "b4439b98-e94b-4129-9652-6bca0471350c",
+                "eventTime": "2013-11-06T17:05:09.012Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["82fc0fba-39d5-418b-8c4d-d7a7f9587f8a"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "94ebed98-3cb4-4d4c-a781-75ea8877e919",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 2",
+                    "testName": "Dummy Test Case 2 in context [REST]"
+                },
+                "eventId": "d63ea2ad-0846-4a7f-abc3-4ff7ee7ab11e",
+                "eventTime": "2013-11-06T17:05:09.017Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "4b3c1477-d963-4745-aea6-86e0e2862452",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 2"
+                    },
+                    "parentId": "94ebed98-3cb4-4d4c-a781-75ea8877e919",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "7a413311-3d8b-48c1-a601-9006e7e8ab05",
+                "eventTime": "2013-11-06T17:05:09.307Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["94ebed98-3cb4-4d4c-a781-75ea8877e919"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "05b05fab-f863-47b8-9d10-efae68625acd",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [UI]"
+                },
+                "eventId": "2881fc49-ad49-4262-adbd-fae140660905",
+                "eventTime": "2013-11-06T17:05:09.314Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "70592910-d19d-4b7c-accc-a313a44bbbf4",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "05b05fab-f863-47b8-9d10-efae68625acd",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "b96c698f-ca38-4e4f-b1fd-5583245d46ae",
+                "eventTime": "2013-11-06T17:05:09.624Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["05b05fab-f863-47b8-9d10-efae68625acd"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "a58ce602-9228-4314-9531-bc7a6a6736b8",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [API]"
+                },
+                "eventId": "61ecfb0f-5cb1-4ed4-8785-76e16a384e15",
+                "eventTime": "2013-11-06T17:05:09.629Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "fe874bb7-3a20-41eb-b85b-66bc2a961ce9",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "a58ce602-9228-4314-9531-bc7a6a6736b8",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "12599529-0e3c-4741-9e59-f74978e139d1",
+                "eventTime": "2013-11-06T17:05:09.921Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["a58ce602-9228-4314-9531-bc7a6a6736b8"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "bc945fd3-e692-4e3a-85c4-d023a7728719",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [API]"
+                },
+                "eventId": "b32f6bbe-4ddb-441d-ab4b-1e4c5dc62c13",
+                "eventTime": "2013-11-06T17:05:09.926Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "36cc5e1e-6008-4528-8d8d-95d288f01db8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "bc945fd3-e692-4e3a-85c4-d023a7728719",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "f0acaf10-0824-4a83-8095-da9a8a99c274",
+                "eventTime": "2013-11-06T17:05:10.455Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["bc945fd3-e692-4e3a-85c4-d023a7728719"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "6ba0ad00-5786-44ad-8d75-4f1b39093e5c",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [API]"
+                },
+                "eventId": "fc2c9d6e-49b3-46de-8253-391363d8c5ad",
+                "eventTime": "2013-11-06T17:05:10.460Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "89be87e2-c094-4dba-bd74-7ce21f59f8d4",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "6ba0ad00-5786-44ad-8d75-4f1b39093e5c",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "af7be0d0-2582-4ed6-b905-f0dcd9a2dfa9",
+                "eventTime": "2013-11-06T17:05:10.744Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["6ba0ad00-5786-44ad-8d75-4f1b39093e5c"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "43a0b699-a0b3-4c74-b8e9-0902b5895555",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [REST]"
+                },
+                "eventId": "70004693-2310-4756-9c60-3417391f7eee",
+                "eventTime": "2013-11-06T17:05:10.750Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "85d05f96-9458-4641-b47b-c12c12b64a67",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "43a0b699-a0b3-4c74-b8e9-0902b5895555",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "5762945f-d6f8-4a5c-9627-0a2e3a4613bb",
+                "eventTime": "2013-11-06T17:05:10.996Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["43a0b699-a0b3-4c74-b8e9-0902b5895555"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "8e22c1f4-be3f-45c5-be7b-a02d8fe79828",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [REST]"
+                },
+                "eventId": "82561fe5-3213-4e21-a7e4-1f539443e0f4",
+                "eventTime": "2013-11-06T17:05:11.000Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "0e5be5d9-d2e7-412f-bba3-2bc4b075a98a",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "8e22c1f4-be3f-45c5-be7b-a02d8fe79828",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "b33be314-d005-44e4-a5c7-3e350c15628f",
+                "eventTime": "2013-11-06T17:05:11.226Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["8e22c1f4-be3f-45c5-be7b-a02d8fe79828"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "9a5fb765-641e-431b-afd3-ef895bbfbe13",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [REST]"
+                },
+                "eventId": "08770346-6c8f-485e-a72d-b465afe48cf7",
+                "eventTime": "2013-11-06T17:05:11.229Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "cefdec25-c89a-4067-a9e4-27e5169eb2f6",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "9a5fb765-641e-431b-afd3-ef895bbfbe13",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "4444f48f-7977-45f0-85bc-18a0d6ee948c",
+                "eventTime": "2013-11-06T17:05:11.436Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["9a5fb765-641e-431b-afd3-ef895bbfbe13"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "abf73a45-8bdf-4759-842f-0f75d4ad8014",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [UI]"
+                },
+                "eventId": "56f9cc40-98f8-4ef9-9ef9-1f752b1a9d76",
+                "eventTime": "2013-11-06T17:05:11.439Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "25208a9b-5d7e-4316-9e0b-6b03977e9fac",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "abf73a45-8bdf-4759-842f-0f75d4ad8014",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "ff963dc5-c57d-455a-b4bd-31020f7d4e12",
+                "eventTime": "2013-11-06T17:05:11.664Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["abf73a45-8bdf-4759-842f-0f75d4ad8014"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "666930d6-4328-40b6-962b-05e37abb1096",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [UI]"
+                },
+                "eventId": "a2d38bf3-10e8-40f4-ac33-2feb1d178439",
+                "eventTime": "2013-11-06T17:05:11.668Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "7fab69b2-c05b-441d-aaeb-26b3ece9c00f",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "666930d6-4328-40b6-962b-05e37abb1096",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "bb73d3a7-2cb1-4119-b73a-1caf096306b4",
+                "eventTime": "2013-11-06T17:05:11.980Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["666930d6-4328-40b6-962b-05e37abb1096"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "a490a683-bae0-42b2-8fbd-bd2fef96aea1",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [UI]"
+                },
+                "eventId": "8aafd6ab-8a56-442c-977d-69babfd668fb",
+                "eventTime": "2013-11-06T17:05:11.986Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "b76b8395-8d33-45a8-bb91-83865c308008",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "a490a683-bae0-42b2-8fbd-bd2fef96aea1",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "579238ad-6106-47f7-9ccc-626dd7f0e343",
+                "eventTime": "2013-11-06T17:05:12.437Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["a490a683-bae0-42b2-8fbd-bd2fef96aea1"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "7a0c5b72-c70e-49f2-a5bb-9c92dd1c5bd0",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [API]"
+                },
+                "eventId": "d1df5b68-f590-43c2-9821-3a2e45951ded",
+                "eventTime": "2013-11-06T17:05:12.444Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "11c22689-bbf6-45ec-97d6-cdba5bf533c4",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "7a0c5b72-c70e-49f2-a5bb-9c92dd1c5bd0",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "d00dd65e-e5c4-491e-b2fd-7fc1693c5568",
+                "eventTime": "2013-11-06T17:05:12.815Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["7a0c5b72-c70e-49f2-a5bb-9c92dd1c5bd0"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "ac44a505-072d-4103-b645-8b9af6092036",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [API]"
+                },
+                "eventId": "46bf8d37-dd8b-4e7b-9526-dcec24eb1589",
+                "eventTime": "2013-11-06T17:05:12.820Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "5081b428-c813-4271-8c1c-01ff714b29d7",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "API",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "ac44a505-072d-4103-b645-8b9af6092036",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "080755ec-9c19-47c5-8122-6610faced12c",
+                "eventTime": "2013-11-06T17:05:13.205Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["ac44a505-072d-4103-b645-8b9af6092036"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "0e95e8d6-a3db-4ad8-b584-b5204bd194f7",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [API]"
+                },
+                "eventId": "214ae819-24ab-45e8-b2b4-056e3aa7b780",
+                "eventTime": "2013-11-06T17:05:13.211Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "0fe67ec9-dcea-4216-b33b-ab145e4dc58c",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "0e95e8d6-a3db-4ad8-b584-b5204bd194f7",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "0cf9fd6d-8884-49b4-bcec-2fd9cd59ebdf",
+                "eventTime": "2013-11-06T17:05:13.592Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["0e95e8d6-a3db-4ad8-b584-b5204bd194f7"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "5288336c-cd41-467d-93a0-bce7570586b7",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [REST]"
+                },
+                "eventId": "01c5604a-1a3c-4605-bdaa-123d3e7c9cb0",
+                "eventTime": "2013-11-06T17:05:13.597Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "f2d16e75-9d8d-4c27-ba89-5f577b08dea8",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "5288336c-cd41-467d-93a0-bce7570586b7",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "6f090540-9cc1-471a-ad32-b0f0ac72e10e",
+                "eventTime": "2013-11-06T17:05:13.984Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["5288336c-cd41-467d-93a0-bce7570586b7"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "f75a1481-b8bc-4f07-bb2d-40ba1c7909e2",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [REST]"
+                },
+                "eventId": "d7fcca5e-063e-4d11-bd39-b1b5e33ddf51",
+                "eventTime": "2013-11-06T17:05:13.989Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "4312c839-e2e9-4a51-a613-ebd741ff2c28",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "REST",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "f75a1481-b8bc-4f07-bb2d-40ba1c7909e2",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "eb0db24d-f9e3-482c-b6d9-1cb7c20425fd",
+                "eventTime": "2013-11-06T17:05:14.436Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["f75a1481-b8bc-4f07-bb2d-40ba1c7909e2"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "1204699d-fb51-451a-8c4d-8593ea54701a",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [REST]"
+                },
+                "eventId": "7851cb0e-6cf5-45d8-8be4-c74767d886f6",
+                "eventTime": "2013-11-06T17:05:14.441Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "fa759e87-a3f8-4ea3-9eb6-ab6ae745ae6c",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "1204699d-fb51-451a-8c4d-8593ea54701a",
+                    "resultCode": "SUCCESS"
+                },
+                "eventId": "8e53f9c5-9180-45a0-a81d-246d99f52bda",
+                "eventTime": "2013-11-06T17:05:14.832Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["1204699d-fb51-451a-8c4d-8593ea54701a"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "3487e262-551a-4bc6-adfe-36b771a6e884",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [UI]"
+                },
+                "eventId": "6aba20dd-61ab-441a-a8a0-a590f8184d32",
+                "eventTime": "2013-11-06T17:05:14.838Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "6f153c0a-577e-4d1b-b336-49dd24a34c19",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "3487e262-551a-4bc6-adfe-36b771a6e884",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "e49567e6-32a6-4c31-9d28-178e940d1603",
+                "eventTime": "2013-11-06T17:05:15.302Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["3487e262-551a-4bc6-adfe-36b771a6e884"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "af8bc1ee-6c97-4231-b08e-933d6c046006",
+                    "jobExecutionId": "747-ABQ",
+                    "optionalParameters": {
+                        "suiteName": "DummyTestCase"
+                    },
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "testId": "TC-DUMMY 3",
+                    "testName": "Dummy Test Case 3 in context [UI]"
+                },
+                "eventId": "e1691b52-4feb-41c2-af60-b2e47b96984b",
+                "eventTime": "2013-11-06T17:05:15.307Z",
+                "eventType": "EiffelTestCaseStartedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "07776a01-41bd-44d2-8c35-ad7b2dcd362f",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {
+                        "Context": "UI",
+                        "suiteName": "DummyTestCase",
+                        "testCaseId": "TC-DUMMY 3"
+                    },
+                    "parentId": "af8bc1ee-6c97-4231-b08e-933d6c046006",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "75d22b4f-ff85-486b-a372-3f2c4e13ae54",
+                "eventTime": "2013-11-06T17:05:15.667Z",
+                "eventType": "EiffelTestCaseFinishedEvent",
+                "inputEventIds": ["af8bc1ee-6c97-4231-b08e-933d6c046006"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "c371d76e-d4f3-4dd2-a32d-c519e9c3ab56",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {},
+                    "parentId": "f2b4586a-3c19-4632-9ebd-d02e353ce22f",
+                    "resultCode": "FAILURE"
+                },
+                "eventId": "ea569bbc-3ea3-4634-9454-c6f3e75bd217",
+                "eventTime": "2013-11-06T17:05:16.690Z",
+                "eventType": "EiffelTestSuiteFinishedEvent",
+                "inputEventIds": ["f2b4586a-3c19-4632-9ebd-d02e353ce22f"]
+            }
+        }
+    },
+    {
+        "eiffelMessageVersions": {
+            "3.0.3.0.2": {
+                "domainId": "test.execution",
+                "eventData": {
+                    "eventId": "c337a52d-85e3-4c79-85a1-33b8ae9b0dd7",
+                    "logReferences": {
+                        "build": {}
+                    },
+                    "optionalParameters": {},
+                    "parentId": "62a9022c-c539-43de-96e3-0767e4a49d8c"
+                },
+                "eventId": "48285a6b-06bb-4959-bea3-062bbcdb67d4",
+                "eventTime": "2013-11-06T17:05:16.970Z",
+                "eventType": "EiffelJobStepFinishedEvent",
+                "inputEventIds": ["62a9022c-c539-43de-96e3-0767e4a49d8c"]
+            }
+        }
+    }
+]
